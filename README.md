@@ -9,7 +9,7 @@ A deep learning project for detecting pneumonia from chest X-ray images using a 
 
 ## Demo
 
-![Streamlit App Screenshot](demo_screenshot.png) <!-- Add a screenshot or GIF of your app here -->
+![Streamlit App Screenshot](image.png)
 
 ---
 
