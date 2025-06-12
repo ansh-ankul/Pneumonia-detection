@@ -130,23 +130,25 @@ The model is a custom Convolutional Neural Network (CNN) inspired by VGG-style a
 └── README.md
 ```
 
-## Installation
+## Local Development
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <your-repo-url>
 cd pneumonia-detection
 ```
 
-2. Create a virtual environment (optional but recommended):
+2. Create a virtual environment and install dependencies:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
-3. Install the required packages:
+3. Run the Streamlit app:
 ```bash
-pip install -r requirements.txt
+cd src/app
+streamlit run app.py
 ```
 
 ## Training the Model
